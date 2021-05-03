@@ -1,0 +1,273 @@
+a {outline: 0; }
+a:link {color: #0000FF; text-decoration: none; }
+a:active {color: #0000FF; text-decoration: none; }
+a:visited {color: #4A85DF; text-decoration: none; }
+a:hover {color: #0000FF; text-decoration: underline; }
+
+.clearfloat { 
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+td , .mainfont , #mainContent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+}
+.newmainfont {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+}
+.links {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.mainfontsmall {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	color: #000000;
+}
+.mainfontlar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+}
+.bottomlinks {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	color: #CCCCCC;
+	font-weight: normal;
+	text-decoration: none;
+}
+.recommended {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #6C2615;
+}
+.linksnobold {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0000FF;
+}
+.dots {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 9px;
+	font-weight: normal;
+	color: #6C2615;
+}
+.links-underline {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 13px;
+	font-weight: normal;
+	color: #4A85DF;
+	text-decoration: underline;
+}
+.recommended-links {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0000FF;
+	text-decoration: underline;
+}
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #454545;
+	text-decoration: none;
+	font-style: italic;
+}
+.headcompany {
+	font-family: Arial, Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.mainfontsmalllinks {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	color: #1C4CBC;
+	text-decoration: none;
+}
+.mainfontnounder {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 13px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.mainfontsmaller {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.forgot {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	color: #666666;
+}
+.titles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.profupdates {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.boxfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.proftitles {
+	font-family: Arial, Verdana;
+	font-size: 15px;
+	font-weight: bold;
+}
+.dashed {
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #CFCFCF;
+	border-right-color: #CFCFCF;
+	border-bottom-color: #CFCFCF;
+	border-left-color: #CFCFCF;
+}
+.style1 {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* forms */
+
+form { margin: 0 }
+
+label.error {color:#FF0000; margin-left:10px;position:absolute; left:-2000px; display:none; visibility:hidden;}
+input.error,select.error {border: 1px solid red;}
+.reqField {color:#FF0000;}
+#errorMessage {visibility:visible; color:#FF0000;}
+
+
+/* horizontal centering */
+.center_outerwrap {
+	position: relative;
+	overflow: hidden;
+}
+.center_container {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+.center_centered {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+
+/* curvybox */
+.curvyboxWrapper {
+	padding-top: 17px;
+	width: 692px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	background-image: url(../../graphics/curvybox_top-piece.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.curvyboxContent {
+	width: 662px;
+	position: relative;
+	padding: 10px 15px 10px 15px;
+	margin: 0;
+	background-image: url(../../graphics/curvybox_side-repeat.png);
+	background-repeat: repeat-y;
+}
+.curvyboxBottom {
+	width: 692px;
+	height: 34px;
+	position: relative;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	background-image: url(../../graphics/curvybox_bottom.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+/* button_normal */
+.button_normal {
+	border: solid 1px #999;
+	color: #333;
+	font-size: 11px;
+	background: url(../../graphics/icons/button_background.gif);
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 10px;
+	padding: 3px 15px 4px 15px;
+}
+.button_normal:hover {
+	border: solid 1px #555;
+	color: #000;
+	font-size: 12px;
+	cursor:pointer;
+	background: url(../../graphics/icons/button_background.gif);
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 3px 15px 4px 15px;
+}
+.button_normal img {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+
+.sf-v-holder .sf-menu>li {
+	line-height: 20px !important;
+}
+
+
+/* simplebox widget from fck */
+.simplebox {
+    padding: 8px;
+    margin: 10px;
+    background: #eee;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #fff inset, 0 -1px 0px #ccc inset;
+}
+.simplebox-title, .simplebox-content {
+    box-shadow: 0 1px 1px #ddd inset;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #fff;
+}
+.simplebox-title {
+    margin: 0 0 8px;
+    padding: 5px 8px;
+}
+.simplebox-content {
+    padding: 0 8px;
+}
+#header sup, #topnav sup {
+ vertical-align: 75%;
+ line-height: 5px;
+}
+.storeSideBar h1 {
+	margin-bottom:5px !important;
+}
+.cke_source {
+	white-space: pre-wrap !important;
+}

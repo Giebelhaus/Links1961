@@ -1,0 +1,68 @@
+#popWrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100px;
+	height:100px;
+	background-color:#000;
+	opacity:0.3;
+	-filter:alpha(opacity=30);
+	z-index: 100000;
+}
+#popBox {
+	font-family: Verdana, Geneva, sans-serif;
+	position:fixed;
+	-position:absolute;
+	padding:10px;
+	margin:0px;
+	background: url(../../graphics/playlist/msgbox_bg.png);
+	z-index:100001;
+	/*left: 267px !important;*/
+	top: 300px !important;
+}
+#popBox input {
+	background: url(../../graphics/playlist/msgbox_header.gif);
+	border: solid 1px #999;
+	padding:4px 15px 4px 15px;
+	-padding:2px;
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+	cursor:pointer;
+}
+#popBox input:hover {
+	background: url(../../graphics/playlist/msgbox_header.gif);
+	padding:4px 15px 4px 15px;
+	-padding:2px;
+	border: solid 1px #000;
+	color:#000;
+	cursor:pointer;
+}
+#popMain {
+	width:450px;
+	border: solid 1px #555;
+	background-position: bottom right;
+	background-color:#efefef;
+	background-repeat: no-repeat;
+}
+#popHeader {
+	height:25px;
+	line-height:25px;
+	padding:0 5px 0 10px;
+	border-bottom: solid 1px #666;
+	font-size:12px;
+	color:#333;
+	background:url(../../graphics/playlist/msgbox_header.gif);
+}
+#popMessage {
+	font-size:12px;
+	font-weight:normal;
+	text-align:justify;
+	padding: 10px 20px 0px 85px;
+}
+#popButtons {
+	text-align:;
+	padding-bottom:10px;
+	text-align:center;
+	clear:both;
+}
